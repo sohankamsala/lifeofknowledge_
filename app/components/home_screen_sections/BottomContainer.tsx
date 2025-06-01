@@ -37,15 +37,17 @@ const BottomContainer: React.FC = () => {
     { title: "Sports", subtitle: "Get physical", relationship: false },
   ];
 
-  async function handleSignout() {
-    const user = await getUser(profileData.username);
-    if (user) {
-      updateGameState(user, JSON.stringify(gameData));
-      updatePopupState(user, JSON.stringify(popupsData));
-    }
+  // async function handleSignout() {
+  //   console.log("called")
+  //   const user = await getUser(profileData.username);
+  //   if (user) {
+  //     console.log("found user")
+  //     updateGameState(user, gameData);
+  //     updatePopupState(user, popupsData);
+  //   }
 
-    router.replace("/");
-  }
+  //   router.replace("/");
+  // }
 
   return (
     <SafeAreaView style={styles.container}>

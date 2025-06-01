@@ -3,10 +3,6 @@ import secrets from "../../secrets";
 export async function updatePopupState(user: { rowKey: string }, popupState: any) {
   const userId = user.rowKey;  // Extract userId from user object
 
-  console.log("updatePopupState");
-  console.log(userId);
-  console.log(JSON.stringify(popupState));
-
   const res = await fetch(`${secrets.functionsEndpoint}/api/updatePopupStateHandler`, {
     method: "POST",
     headers: {

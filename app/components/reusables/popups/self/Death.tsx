@@ -13,7 +13,7 @@ import * as MediaLibrary from "expo-media-library";
 import { StyleSheet } from "react-native";
 import { AzureOpenAI } from "openai";
 import { RootState } from "../../../../redux/store";
-import secrets from "../../../../../secrets";
+import secrets from "@/secrets";
 import { useRouter } from "expo-router";
 import { resetGame } from "@/app/redux/slices/data";
 import { resetPopupsState, setSection } from "../../../../redux/slices/popups";

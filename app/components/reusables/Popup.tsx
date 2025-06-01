@@ -45,7 +45,7 @@ const Popup = () => {
 
   const closePopup = () => {
     dispatch(setPopupState({ whichPopup: "", open: false }));
-    setTimeout(() => setContent(null), 200);
+    setContent(null)
   };
 
   useEffect(() => {
@@ -69,7 +69,8 @@ const Popup = () => {
 
   useEffect(() => {
     if (!popups.popup.open) {
-      setTimeout(() => setContent(null), 200);
+      // setTimeout(() => setContent(null), 200);
+      setContent(null)
       return;
     }
 

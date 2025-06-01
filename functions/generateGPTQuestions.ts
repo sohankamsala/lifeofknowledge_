@@ -1,6 +1,5 @@
 const { AzureOpenAI } = require("openai");
-import secrets from "@/secrets";
-
+import secrets from "../secrets";
 let currentDeploymentIndex = 0;
 
 const endpoint = secrets.deployments[0].endpoint;
