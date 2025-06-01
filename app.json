@@ -4,7 +4,7 @@
     "plugins": [
       "expo-router"
     ],
-    "name": "FBLA",
-    "slug": "FBLA"
+    "name": "lifeofknowledge",
+    "slug": "lifeofknowledge"
   }
 }
