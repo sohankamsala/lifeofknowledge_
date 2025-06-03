@@ -98,10 +98,3 @@ Click to watch the demo video:
 * **Storage**: Azure Blob/Table Storage
 
 ---
-
-```
-
----
-
-Let me know if you'd like this converted into a file or customized for Expo EAS deploy, Play Store/TestFlight instructions, or screenshots.
-```
