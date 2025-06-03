@@ -1,5 +1,3 @@
-Here's a professional and comprehensive `README.md` for your [lifeofknowledge\_](https://github.com/sohankamsala/lifeofknowledge_) GitHub repo, with an embedded YouTube video, tech stack, environment setup, Azure/OpenAI integration, and deployment instructions:
-
 ---
 
 # 🧠 Life of Knowledge
@@ -21,7 +19,7 @@ Here's a professional and comprehensive `README.md` for your [lifeofknowledge\_]
 
 ## 📂 Example Environment Setup
 
-Create a `.env` file in the root of your project:
+Create a `.env` file in functions directory(ex: lok_auth/):
 
 ```env
 AZURE_OPENAI_API_KEY=your-api-key
@@ -100,10 +98,6 @@ Click to watch the demo video:
 * **Storage**: Azure Blob/Table Storage
 
 ---
-
-## 📬 Contact
-
-Questions or suggestions? Reach out via [GitHub Issues](https://github.com/sohankamsala/lifeofknowledge_/issues)!
 
 ```
 
